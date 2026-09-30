@@ -478,59 +478,6 @@ $today = date('Y-m-d');
     </div>
 </section>
 
-<!-- Modern Flat Footer (rounded-none, shadow-none, subtle border) -->
-<footer class="mt-auto bg-slate-950 text-slate-400 border-t border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-            
-            <!-- Brand Column -->
-            <div class="md:col-span-2">
-                <div class="flex items-center gap-3 mb-4">
-                    <div class="w-9 h-9 rounded-none bg-sky-600 flex items-center justify-center text-white border border-sky-500/30">
-                        <i class="fa-solid fa-plane-departure text-sm"></i>
-                    </div>
-                    <span class="text-2xl font-extrabold text-white font-brand">SkyWings</span>
-                </div>
-                <p class="text-sm text-slate-400 max-w-sm leading-relaxed mb-4">
-                    Your premier online flight booking portal. Fly with confidence, transparency, and top-tier airline partners.
-                </p>
-                <div class="flex items-center gap-2 text-slate-400">
-                    <a href="#" class="w-8 h-8 rounded-none bg-slate-900 border border-slate-800 flex items-center justify-center hover:text-sky-400 hover:border-sky-500 transition-colors"><i class="fa-brands fa-facebook-f text-xs"></i></a>
-                    <a href="#" class="w-8 h-8 rounded-none bg-slate-900 border border-slate-800 flex items-center justify-center hover:text-sky-400 hover:border-sky-500 transition-colors"><i class="fa-brands fa-twitter text-xs"></i></a>
-                    <a href="#" class="w-8 h-8 rounded-none bg-slate-900 border border-slate-800 flex items-center justify-center hover:text-sky-400 hover:border-sky-500 transition-colors"><i class="fa-brands fa-instagram text-xs"></i></a>
-                </div>
-            </div>
-
-            <!-- Quick Links -->
-            <div>
-                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-wider">Quick Navigation</h4>
-                <ul class="space-y-2 text-sm">
-                    <li><a href="index.php" class="hover:text-white transition-colors">Home</a></li>
-                    <li><a href="book.php" class="hover:text-white transition-colors">Search Flights</a></li>
-                    <li><a href="feedback.php" class="hover:text-white transition-colors">Passenger Feedback</a></li>
-                    <li><a href="admin/login.php" class="hover:text-white transition-colors">Admin Portal</a></li>
-                </ul>
-            </div>
-
-            <!-- Security & Compliance -->
-            <div>
-                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-wider">Security & Trust</h4>
-                <ul class="space-y-2 text-sm">
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-shield-halved text-emerald-500 text-xs"></i> SSL 256-bit Encrypted</li>
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-bolt text-amber-500 text-xs"></i> Instant E-Ticket Delivery</li>
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-clock text-sky-500 text-xs"></i> 24/7 Dedicated Support</li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-            <p>&copy; <?php echo date('Y'); ?> SkyWings Aviation. All rights reserved.</p>
-            <p>Crafted for Seamless Airline Booking Experiences</p>
-        </div>
-    </div>
-</footer>
-
 <!-- Interactive Scripts for Tabs & Counters -->
 <script>
     function switchTripTab(type) {
